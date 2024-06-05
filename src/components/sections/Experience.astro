@@ -1,0 +1,15 @@
+
+---
+import {work} from "../../../cv.json";
+import ExperienceItem from "../ExperienceItem.astro";
+---
+<ol class="relative border-s border-gray-200 ml-3">
+    {
+        work.map(experience => (
+            <li class="mb-10 ms-4">
+                <ExperienceItem { ... experience } />
+            </li>
+        ))
+    }
+</ol>
+

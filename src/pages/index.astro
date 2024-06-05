@@ -1,0 +1,127 @@
+---
+import KeyboardManager from '../components/KeyboardManager.astro';
+import Layout from '../layouts/Layout.astro';
+import SectionContainer from "../components/SectionContainer.astro";
+import Badge from "../components/Badge.astro";
+import Mail from "../icons/Mail.astro";
+import Phone from "../icons/Phone.astro";
+import X from "../icons/X.astro";
+import LinkedIn from "../icons/LinkedIn.astro";
+import GitHub from "../icons/GitHub.astro";
+import WorldMap from "../icons/WorldMap.astro";
+
+import { basics } from "../../cv.json";
+import Experience from '../components/sections/Experience.astro';
+import Projects from '../components/sections/Projects.astro';
+import Briefcase from '../icons/Briefcase.astro';
+import Code from '../icons/Code.astro';
+
+const { name, profile, experienceLabel, specializationLabel, 
+		profileUrl, otherDescription, profiles, phone, email,
+		summary } = basics;
+
+const { city, region } = basics.location;
+
+const SOCIAL_ICONS: Record<string, any> = {
+    GitHub,
+    LinkedIn,
+    X,
+	Mail,
+};
+
+const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
+const linkedUrl = linkedInfo?.url;
+
+const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
+---
+
+<Layout title={`Portafolio de ${name} - ${profile}`} description={summary}>
+	<main class="text-white px-4">
+		<SectionContainer class="mx-auto px-2 gap-4 py-44 pb-32">
+			<h1 class="text-3xl md:text-4xl lg:text-5xl font-bold flex
+				flex-row gap-x-4 pb-6 lg:pb-10">
+				Hey, soy { name } 
+				<a href={`${profileUrl}`} target="_blank" rel="noopener noreferrer"
+				class="flex justify-center items-center">
+					<Badge>
+						{ profile }
+					</Badge>
+				</div>
+			</h1>
+			<h2 class="text-xl lg:text-2xl text-wrap max-w-[700px] mb-5">
+				<span>{ experienceLabel }</span> 
+				<span class="text-yellow-300">{ specializationLabel }</span> 
+				<span>De { city }, { region }.</span> 
+				<span class="opacity-75">{otherDescription}</span>
+			</h2>
+			<section class="flex flex-row flex-wrap gap-4 justify-center mb-6">
+				{
+                    profiles.map(({ network, url, username }) => {
+                        const Icon = SOCIAL_ICONS[network];
+
+                        return (
+							<nav class="rounded-full border border-white/10 flex justify-center items-center gap-x-2
+								transition transform hover:bg-white hover:text-black duration-300">
+								<a
+									href={url}
+									title={`Visitar el perfil de ${name} en ${network}`}
+									target="_blank"
+									rel="noopener noreferrer"
+									class="flex flex-row flex-wrap gap-1 items-center text-center justify-center my-0 mx-2 lg:m-2"
+								>
+									<Icon class="size-4 lg:size-6" /><span class="text-xs lg:text-base">{ network }</span>
+								</a>
+							</nav>                            
+                        );
+                    })
+                }
+				{
+                    email && (
+						<nav class="rounded-full border border-white/10 flex justify-center items-center gap-x-2
+									transition transform hover:bg-white hover:text-black duration-300">
+							<a
+								href={`mailto: ${email}`}
+								title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+								target="_blank"
+								rel="noopener noreferrer"
+								class="flex flex-row flex-wrap gap-1 items-center text-center justify-center mx-2"
+							>
+								<Mail class="size-6" /><span>Correo electrónico</span>
+							</a>
+						</nav>
+                    )
+                }
+                {
+                    phone && (
+						<nav class="rounded-full border border-white/10 flex justify-center items-center gap-x-2
+									transition transform hover:bg-white hover:text-black duration-300">
+							<a
+								href={`Tel: ${phone}`}
+								title={`Llamar por teléfono a ${name} al número ${phone}`}
+								target="_blank"
+								rel="noopener noreferrer"
+								class="flex flex-row flex-wrap gap-1 items-center text-center justify-center mx-2"
+							>
+								<Phone class="size-6" /><span>Teléfono</span>
+							</a>
+						</nav>
+                    )
+                }
+			</section>			
+		</SectionContainer>
+		<SectionContainer id="experiencia" class="mx-auto px-4">
+			<h2 class="text-3xl font-semibold mb-6 flex gap-x-3 items-center">
+				<Briefcase class="size-7" />
+				Experiencia Laboral
+			</h2>
+			<Experience />
+		</SectionContainer>
+		<SectionContainer id="proyectos" class="mx-auto px-4">
+			<h2 class="text-3xl font-semibold mb-6 flex gap-x-3 items-center">
+				<Code class="size-7" />
+				Proyectos
+			</h2>
+			<Projects />
+		</SectionContainer>
+	</main>
+</Layout>

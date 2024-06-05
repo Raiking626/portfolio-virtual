@@ -1,0 +1,13 @@
+---
+import {projects} from "../../../cv.json";
+import ProjectItem from "../ProjectItem.astro";
+---
+<!-- <ol class="relative border-s border-gray-200 ml-3"> -->
+    {
+        projects.map(project => (
+            // <li class="mb-10 ms-4">
+                <ProjectItem class="my-6 lg:my-[50px]" { ... project } />
+            // </li>
+        ))
+    }
+<!-- </ol> -->

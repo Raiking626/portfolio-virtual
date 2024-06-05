@@ -1,0 +1,315 @@
+{
+  "basics": {
+    "name": "Kevin Rafael Puente Morales",
+    "profile": ".NET Developer",
+    "experienceLabel": "+3 años de experiencia.",
+    "specializationLabel": "Desarrollador web y aplicaciones instalables para windows.",
+    "otherDescription": "Especializado en el desarrollo web y sustracción de datos desde fuentes externas de datos.",
+    "image": "/img/profile_photo.webp",
+    "email": "krpuente2000@gmail.com",
+    "phone": "+57 3166658052",
+    "url": "https://github.com/Raiking626",
+    "summary": "Desarrollador .NET con 3 años de experiencia he trabajado en el sector logistico y de salud desarrollando aplicaciones para una mayor eficiencia en las tareas de estas áreas.",
+    "profileUrl": "https://www.linkedin.com/in/kevin-rafael-puente-morales-655384181",
+    "location": {
+      "address": "",
+      "postalCode": "11001",
+      "city": "Bogotá",
+      "countryCode": "CO",
+      "region": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Kevin Rafael Puente Morales",
+        "url": "https://www.linkedin.com/in/kevin-rafael-puente-morales-655384181"
+      },
+      {
+        "network": "GitHub",
+        "username": "Raiking626",
+        "url": "https://github.com/Raiking626"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "SofTech S.A.S.",
+      "position": "Desarrollador Backend",
+      "startDate": "2023-10-02",
+      "endDate": null,
+      "summary": "Desarrollador backend utilizando tecnologías .NET, Java (Springboot) y MySQL, también he utilizado algo de Angular para desarrollar Frontend para los requerimientos técnicos de la compañía, actualmente se está desarrollando un aplicativo ERP para el área lógistica con una visión de alcance a nivel internacional.",
+      "highlights": [
+        ".NET", "Angular", "MySQL", "SignalR", "Procedimientos Almacenados", "Java", "TypeScript", "Jasper Reports"
+      ]
+    },
+    {
+      "name": "Stone Colombia S.A.S.",
+      "position": "Freelance",
+      "startDate": "2023-10-10",
+      "endDate": null,
+      "summary": "Desarrollador freelance para la compañía desarrollando aplicaciones bajo tecnologías .NET y framework DevExtreme.",
+      "highlights": [
+        ".NET", "DevExteme", "Ajax", "HTML", ".NET Framework 4.5"
+      ]
+    },
+    {
+      "name": "Stone Colombia S.A.S.",
+      "position": "Ingeniero Desarrollador de Software",
+      "startDate": "2022-05-25",
+      "endDate": "2023-09-28",
+      "summary": "Desarrollé algunas soluciones para la compañía como lo fueron soluciones para el área médica en un aplicativo para apartar citas médicas, y en el aréa de la lógistica con una aplicación la cual es usada en una institución pública a nivel nacional usando DevExpress y .Net Framework 4.5.",
+      "highlights": [
+        ".NET Framework 4.5", "DevExpress"
+      ]
+    },
+    {
+      "name": "Servicios Integrales Maritimos S.A.S.",
+      "position": "Desarrollador de Software",
+      "startDate": "2021-03-11",
+      "endDate": "2021-04-11",
+      "summary": "Se generan actualizaciones de aplicativos ya existentes en la compañía con el uso de .NET bajo los lenguajes C# y VB.",
+      "highlights": [
+        ".NET Framework", "C#", "VB.NET", "Bootstrap", "SQL Server"
+      ]
+    },
+    {
+      "name": "Servicios Integrales Maritimos S.A.S.",
+      "position": "Desarrollador de Software",
+      "startDate": "2020-10-20",
+      "endDate": "2021-01-19",
+      "summary": "Se generan actualizaciones para el aplicativo SIMCO bajo el lenguaje C#.",
+      "highlights": [
+        ".NET Framework", "C#", "Bootstrap", "SQL Server"
+      ]
+    },
+    {
+      "name": "Servicios Integrales Maritimos S.A.S.",
+      "position": "Desarrollador de Software",
+      "startDate": "2018-09-03",
+      "endDate": "2019-03-03",
+      "summary": "Desarrollo el sistema de gestión SIMCO para la compañía, el cual es un sistema lógistico utilizado para reducir tiempos y costos de operación.",
+      "highlights": [
+        ".NET Framework", "C#", "Bootstrap", "SQL Server", "Primer Trabajo"
+      ]
+    }
+  ],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "url": "https://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [
+    {
+    "institution": "Servicio Nacional de Aprendizaje SENA",
+    "area": "Técnologo en Analisis y Desarrollo de Sistemas de Información",
+    "studyType": "Tecnología",
+    "startDate": "2016-12-22",
+    "endDate": "2021-06-23",
+    "score": "4.5",
+    "courses": [
+      "Programación orientada a objetos", "Introducción a Java", "Introducción a C#", "Introducción a PHP", "Introducción a SQL Server", "Introducción a MySQL", "Lógica de Programación", "Algoritmos"
+    ]
+  },
+  {
+    "institution": "Institución Educativa San Francisco de Asís",
+    "area": "Bachiller Técnico en Mantenimiento y Montaje de redes",
+    "studyType": "Bachiller",
+    "startDate": "2011-01-15",
+    "endDate": "2016-12-03",
+    "score": "4.0",
+    "courses": [
+      "Introducción al HTML", "Mantenimiento a Equipos de Computo", "Subneting", "Introducción a la Lógica de Programación"
+    ]
+  }
+],
+  "awards": [
+    {
+      "title": "Mención de Honor",
+      "date": "2016-12-03",
+      "awarder": "Escuela",
+      "summary": "Por haber obtenido el mayor puntaje de las Pruebas Saber 11 - 2016."
+    },
+    {
+      "title": "Carta de recomendación",
+      "date": "2019-03-26",
+      "awarder": "Servicios Integrales Marítimos S.A.S.",
+      "summary": "Carta de recomendación otorgada por el gerente de la compañía por ser un trabajador honesto y responsable."
+    }
+  ],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Medio",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Básico",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Medio",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Básico",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Medio",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": ".NET",
+      "level": "Avanzado",
+      "keywords": [
+        "Backend", "Servidor", "API"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend", "Procedimientos Almacenados", "Triggers", "Eventos Programados"
+      ]
+    },
+    {
+      "name": "SQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend", "Procedimientos Almacenados", "Triggers", "Eventos Programados"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Medio",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Medio",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "Básico",
+      "keywords": [
+        "Backend", "Web Services"
+      ]
+    },
+    {
+      "name": "Jasper Reports",
+      "level": "Avanzado",
+      "keywords": [
+        "Reporteador", "XML", "Generador de PDF"
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "level": "Medio",
+      "keywords": [
+        "Aplicaciones Web Responsive", "CSS"
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "Básico",
+      "keywords": [
+        "Framework", "Frontend", "Componentes", "Servicios", "Single Page Application"
+      ]
+    },
+    {
+      "name": "Astro 4",
+      "level": "Básico",
+      "keywords": [
+        "Framework HTML", "Frontend", "Componentes", "Aplicaciones Estáticas"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Lengua nativa"
+    },
+    {
+      "language": "English",
+      "fluency": "Basic"
+    },
+    {
+      "language": "Portuguese",
+      "fluency": "Basic"
+    }
+  ],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [
+    {
+      "name": "Asofty",
+      "isActive": false,
+      "description": "Aplicativo ERP para el área lógistica, utiliza Angular, .NET, Java, MySQL y SignalR para su desarrollo. Dentro de mis labores en el proyecto está la creación de los endpoints del backend, las tablas, triggers, eventos programados y procedimientos almacenados de la base de datos, generación de reportes e integración del reporteador, facturación electrónica y transmisión de la factura eléctronica.",
+      "highlights": [
+        "Nuevo desarrollo",
+        "Internacional",
+        "JavaScript & TypeScript",
+        "En Desarrollo"
+      ]
+    },
+    {
+      "name": "SIMCO",
+      "isActive": true,
+      "description": "Aplicativo desarrollado en .Net Framework con el uso del lenguaje C#, con librerías como Ajax y Bootstrap, es un aplicativo lógistico utilizado dentro de la compañía para volver más eficacez los procesos de la misma. Mi labor en este proyecto fue el desarrollo de la parte frontend, backend, algunas de las tablas y los procedimientos almacenados de la base de datos.",
+      "highlights": [
+        "Responsive",
+        ".NET Framework",
+        "Desarrollo En Constante Actualización"
+      ],
+      "url": "https://simco.simaritima.com/",
+      "cover": "/img/Cover_SIMCO.jpg"
+    }
+  ]
+}

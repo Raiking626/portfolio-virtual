@@ -1,0 +1,25 @@
+---
+const { name, position, startDate, endDate, summary, highlights } = Astro.props;
+---
+
+<div
+    class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"
+>
+</div>
+<time
+    class="mb-1 text-sm font-normal leading-none text-cyan-200/70"
+    > {name} - {startDate} { (endDate) ? `- ${endDate}` : "- Actualidad" }
+</time>
+<h3 class="text-lg font-semibold text-yellow-200 dark:text-white">
+    {position}
+</h3>
+<p class="mb-4 text-base font-normal text-gray-50S0 dark:text-gray-400 text-pretty">
+    {summary}
+</p>
+<ul class="flex flex-row gap-6 text-center items-center flex-wrap">
+    {
+        highlights.map((tasks: string[]) => (
+            <li class="rounded border border-white bg-white text-gray-700 px-1" >{tasks}</li>
+        ))
+    }
+</ul>

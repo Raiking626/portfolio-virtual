@@ -1,0 +1,22 @@
+---
+import { Image } from "astro:assets";
+import { basics } from "../../../cv.json";
+
+const { name, image } = basics;
+
+---
+
+<header class="flex justify-between items-center py-5 w-full">
+    <a href="#top">
+        <Image src={`${image}`} alt={`Foto de ${name}`} 
+        width={56} height={56} class="rounded-full size-14"
+        format="svg" quality={"max"} loading="eager"/>        
+    </a>
+    <nav class="flex flex-row gap-x-10 text-white opacity-80">
+        <a href="#top">Inicio</a>
+        <a href="#about">Sobre mí</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
