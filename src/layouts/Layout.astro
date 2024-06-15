@@ -20,7 +20,8 @@ const { title, description } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body class="absolute p-0 m-0 inset-0 -z-10 h-full w-full items-center px-5 [background:radial-gradient(90%_200%_at_100%_50%,#000_100%,#0ff_200%)]">
+	<body class="absolute p-0 m-0 inset-0 -z-10 h-full w-full items-center px-5 bg-black pulse-animation">
+  	
 		<!-- Negro con iluminaciones -->
 		<!-- <div class="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"> -->
 		<!-- Negro y morado degradado -->
@@ -51,7 +52,32 @@ const { title, description } = Astro.props;
 		flex-direction: column;
 		height: 100%;
 		margin: 0;
+		background: #050505;
+		background: radial-gradient(5% 200% at 0% 50%, rgba(0, 255, 255, 0.342), transparent 100%), radial-gradient(5% 200% at 100% 50%, rgba(0, 255, 255, 0.342), transparent 100%);
+		background-color: #050505;
+		overflow-x: hidden;
+		transition: all 1.5s;
 	}
+
+	@keyframes pulse {
+      0%, 100% {
+		transition: all 1.5s;
+        background: #050505;
+		background: radial-gradient(5% 200% at 0% 50%, rgba(0, 255, 255, 0.342), transparent 100%), radial-gradient(5% 200% at 100% 50%, rgba(0, 255, 255, 0.342), transparent 100%);
+		background-color: #050505;
+      }
+      50% {
+		transition: all 1.5s;
+        background: #050505;
+		background: radial-gradient(7% 200% at 0% 50%, rgba(0, 255, 255, 0.342), transparent 100%), radial-gradient(7% 200% at 100% 50%, rgba(0, 255, 255, 0.342), transparent 100%);
+		background-color: #050505;
+      }
+    }
+    /* Clase para la animación */
+    .pulse-animation {
+      animation: pulse 2s infinite;
+	  transition: all 1.5s;
+    }
 
 	@media (prefers-reduced-motion: reduce) {
 		html {
@@ -59,3 +85,13 @@ const { title, description } = Astro.props;
 		}
 	}
 </style>
+<!-- Script para agregar la clase de animación cuando se carga la página -->
+<!-- <script>
+	// Función para agregar la clase de animación
+	function startAnimation() {
+		document.body.classList.add('pulse-animation');
+	}
+
+	// Disparar la función al cargar la página
+	document.addEventListener('DOMContentLoaded', startAnimation);
+</script> -->
