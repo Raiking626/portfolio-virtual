@@ -3,20 +3,42 @@ import { Image } from "astro:assets";
 import { basics } from "../../../cv.json";
 
 const { name, image } = basics;
-
 ---
 
 <header class="flex justify-between items-center pt-0 mt-0 w-full fixed z-10 bg-black">
-    <a href="#top">
-        <Image src={`${image}`} alt={`Foto de ${name}`} 
-        width={56} height={56} class="relative mx-4 my-2 rounded-full size-14"
-        format="svg" quality={"max"} loading="eager"/>        
-    </a>
-    <nav class="flex flex-row gap-x-10 text-white opacity-80">
-        <a href="#top">Inicio</a>
-        <a href="#about">Sobre mí</a>
-        <a href="#experiencia">Experiencia</a>
-        <a href="#proyectos">Proyectos</a>
-        <a href="#contacto">Contacto</a>
-    </nav>
+  <a href="#top">
+    <Image
+      src={`${image}`}
+      alt={`Foto de ${name}`}
+      width={56}
+      height={56}
+      class="relative mx-4 my-2 rounded-full size-14"
+      format="svg"
+      quality={"max"}
+      loading="eager"
+    />
+  </a>
+  <!-- Button for mobile view -->
+  <button id="menu-button" class="block lg:hidden px-4 py-2">
+    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+    </svg>
+  </button>
+  <!-- Nav Links -->
+  <nav id="menu" class="hidden lg:flex flex-col lg:flex-row lg:items-center w-full lg:w-auto lg:gap-x-10 text-white opacity-80 bg-black lg:bg-transparent">
+    <a href="#top" class="block px-4 py-2 lg:p-0">Inicio</a>
+    <a href="#about" class="block px-4 py-2 lg:p-0">Sobre mí</a>
+    <a href="#experiencia" class="block px-4 py-2 lg:p-0">Experiencia</a>
+    <a href="#proyectos" class="block px-4 py-2 lg:p-0">Proyectos</a>
+    <a href="#contacto" class="block px-4 py-2 lg:p-0">Contacto</a>
+  </nav>
 </header>
+
+<script>
+  const menuButton = document.getElementById('menu-button');
+  const menu = document.getElementById('menu');
+
+  menuButton?.addEventListener('click', () => {
+    menu?.classList.toggle('hidden');
+  });
+</script>
