@@ -157,20 +157,6 @@
   }],
   "hardSkills": [
     {
-      "name": "HTML",
-      "level": "Medio",
-      "keywords": [
-        "Desarrollo Web", "Frontend"
-      ]
-    },
-    {
-      "name": "CSS",
-      "level": "Básico",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
-      ]
-    },
-    {
       "name": "JavaScript",
       "level": "Medio",
       "keywords": [
