@@ -9,12 +9,14 @@ import X from "../icons/X.astro";
 import LinkedIn from "../icons/LinkedIn.astro";
 import GitHub from "../icons/GitHub.astro";
 import WorldMap from "../icons/WorldMap.astro";
+import Skill from "../icons/Skill.astro";
 
 import { basics } from "../../cv.json";
 import Experience from '../components/sections/Experience.astro';
 import Projects from '../components/sections/Projects.astro';
 import Briefcase from '../icons/Briefcase.astro';
 import Code from '../icons/Code.astro';
+import Skills from '../components/sections/Skills.astro';
 
 const { name, profile, experienceLabel, specializationLabel, 
 		profileUrl, otherDescription, profiles, phone, email,
@@ -123,5 +125,11 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 			</h2>
 			<Projects />
 		</SectionContainer>
+		<SectionContainer id="Skills" class="mx-auto px-4">
+			<h2 class="text-3xl font-semibold mb-6 flex gap-x-3 items-center">
+				<Skill class="size-7" />
+				Habilidades
+			</h2>
+			<Skills />
 	</main>
 </Layout>

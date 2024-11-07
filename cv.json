@@ -155,7 +155,7 @@
     "url": "https://publication.com",
     "summary": "Description…"
   }],
-  "skills": [
+  "hardSkills": [
     {
       "name": "HTML",
       "level": "Medio",
@@ -262,6 +262,11 @@
       ]
     }
   ],
+  "softSkills": [
+    {
+      "name": "Honestidad"
+    }
+  ],
   "languages": [
     {
       "language": "Español",
@@ -290,14 +295,16 @@
   "projects": [
     {
       "name": "Asofty",
-      "isActive": false,
+      "isActive": true,
       "description": "Aplicativo ERP para el área lógistica, utiliza Angular, .NET, Java, MySQL y SignalR para su desarrollo. Dentro de mis labores en el proyecto está la creación de los endpoints del backend, las tablas, triggers, eventos programados y procedimientos almacenados de la base de datos, generación de reportes e integración del reporteador, facturación electrónica y transmisión de la factura eléctronica.",
       "highlights": [
         "Nuevo desarrollo",
         "Internacional",
         "JavaScript & TypeScript",
         "En Desarrollo"
-      ]
+      ],
+      "url": "https://appmyasofty.com/",
+      "cover": "/img/asofty.jpg"
     },
     {
       "name": "SIMCO",

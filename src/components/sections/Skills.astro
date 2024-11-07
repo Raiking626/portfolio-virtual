@@ -1,0 +1,28 @@
+---
+import HardSkills from "./HardSkills.astro";
+import SoftSkills from "./SoftSkills.astro";
+---
+
+<div class="skills-container">
+  <div class="skill-item">
+    <HardSkills /> 
+  </div>
+  <div class="skill-item">
+    <SoftSkills />
+  </div>
+</div>
+
+<style>
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust minmax for desired breakpoint */
+  gap: 20px; /* Adjust gap as needed */
+}
+
+/* Style individual skill items */
+.skill-item {
+  border: none; /* Remove the border */
+  background-color: #161616; /* Dark gray background */
+  padding: 20px; 
+}
+</style>
