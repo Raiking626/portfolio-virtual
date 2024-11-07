@@ -265,6 +265,39 @@
   "softSkills": [
     {
       "name": "Honestidad"
+    },
+    {
+      "name": "Gestión del estrés"
+    },
+    {
+      "name": "Pensamiento critico"
+    },
+    {
+      "name": "Trabajo en equipo"
+    },
+    {
+      "name": "Resiliencia"
+    },
+    {
+      "name": "Responsabilidad"
+    },
+    {
+      "name": "Colaboración"
+    },
+    {
+      "name": "Aprendizaje contínuo"
+    },
+    {
+      "name": "Apertura al feedback"
+    },
+    {
+      "name": "Análisis"
+    },
+    {
+      "name": "Empatía"
+    },
+    {
+      "name": "Iniciativa propia"
     }
   ],
   "languages": [
