@@ -2,7 +2,7 @@
   "basics": {
     "name": "Kevin Rafael Puente Morales",
     "profile": ".NET Developer",
-    "experienceLabel": "+3 años de experiencia.",
+    "experienceLabel": "+4 años de experiencia.",
     "specializationLabel": "Desarrollador web y aplicaciones instalables para windows.",
     "otherDescription": "Especializado en el desarrollo web y sustracción de datos desde fuentes externas de datos.",
     "image": "/img/profile_photo.webp",
@@ -33,8 +33,8 @@
   },
   "work": [
     {
-      "name": "SofTech S.A.S.",
-      "position": "Desarrollador Backend",
+      "name": "Soft Tech S.A.S.",
+      "position": "Developer Semi Sr",
       "startDate": "2023-10-02",
       "endDate": null,
       "summary": "Desarrollador backend utilizando tecnologías .NET, Java (Springboot) y MySQL, también he utilizado algo de Angular para desarrollar Frontend para los requerimientos técnicos de la compañía, actualmente se está desarrollando un aplicativo ERP para el área lógistica con una visión de alcance a nivel internacional.",
@@ -315,7 +315,7 @@
     {
       "name": "Forwarty",
       "isActive": true,
-      "description": "Aplicativo ERP para el área lógistica, utiliza Angular, .NET, Java, MySQL y SignalR para su desarrollo. Dentro de mis labores en el proyecto está la creación de los endpoints del backend, las tablas, triggers, eventos programados y procedimientos almacenados de la base de datos, generación de reportes e integración del reporteador, facturación electrónica y transmisión de la factura eléctronica.",
+      "description": "Aplicativo ERP para el área lógistica, utiliza Angular, .NET, Java, MySQL y SignalR para su desarrollo. Dentro de mis labores en el proyecto está la creación de los endpoints del backend, las tablas, triggers, eventos programados y procedimientos almacenados de la base de datos, generación de reportes e integración del reporteador, facturación electrónica y transmisión de la factura eléctronica. Además de la integración con el API de Gemini, el servicio de transferencia de archivos mediante el protocolo SFTP. Creación de componentes en Angular para la contabilidad del sistema y mejorar el rendimiento del aplicativo.",
       "highlights": [
         "Nuevo desarrollo",
         "Internacional",
@@ -323,7 +323,7 @@
         "En Desarrollo"
       ],
       "url":"https://appforwarty.com/",
-      "cover": "/img/asofty.jpg"
+      "cover": "/img/Forwarty.jpg"
     },
     {
       "name": "SIMCO",
